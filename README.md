@@ -60,7 +60,11 @@ function preload() {
     this.load.image('logo', 'assets/logo-inteli_branco.png');
    
     this.load.image('peixe', 'assets/peixes/baiacu.png');
+    
+    this.load.image('peixe2', 'assets/pepepepe.jpg');
+
 }
+
 
 
 
@@ -70,7 +74,8 @@ function create() {
 
     this.add.image(400, 525, 'logo').setScale(0.50);
 
-   
+    this.add.image(400, 300, 'peixe2').setScale(0.80);
+
     peixinho = this.add.image(400, 300, 'peixe');
    
     peixinho.setFlip(true, false);
